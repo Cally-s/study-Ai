@@ -11,3 +11,45 @@
 .folder-card{cursor:pointer}
 .folder-menu{cursor:default}
 .folder-instructions{grid-column:1/-1}
+.folder-card{padding-right:52px}
+.folder-card .folder-menu-button{display:inline-grid!important;place-items:center!important;position:absolute;top:12px;right:12px;z-index:5;width:34px;height:34px;margin:0!important;border:1px solid #dfe3ec!important;border-radius:10px;background:#fff!important;color:#4653cc!important;box-shadow:0 6px 16px rgba(39,52,112,.08);font-size:22px!important;font-weight:800;line-height:1!important;opacity:1!important;visibility:visible!important}
+.folder-card .folder-menu-button:hover,.folder-card .folder-menu-button:focus{background:#eef0ff!important;border-color:#cbd2ff!important;color:var(--blue)!important;outline:none}
+.folder-card .folder-menu{top:48px;right:12px}
+.sidebar-folders{overflow:visible!important}
+.sidebar-folder-wrap{position:relative;width:100%;border-radius:9px}
+.sidebar-folder-wrap .sidebar-folder{flex:1;min-width:0;padding-right:4px}
+.sidebar-folder-menu{display:inline-grid!important;place-items:center!important;flex:0 0 28px;width:28px;height:28px;margin-left:auto;border:1px solid #dfe3ec!important;border-radius:8px!important;background:#fff!important;color:#4653cc!important;font-size:18px!important;font-weight:800!important;line-height:1!important;opacity:1!important;visibility:visible!important}
+.sidebar-folder-menu:hover,.sidebar-folder-menu:focus{background:#eef0ff!important;border-color:#cbd2ff!important;color:var(--blue)!important;outline:none}
+.sidebar-folder-wrap .folder-menu{top:32px;right:0;width:205px;padding:5px}
+.sidebar-folder-wrap .folder-menu>button,.sidebar-folder-wrap .move-folder-label{padding:6px 8px;font-size:10px}
+.sidebar-folder-wrap .menu-section{padding:5px 8px}
+.sidebar-folder-wrap .color-options{gap:5px;margin-top:5px}
+.sidebar-folder-wrap .color-options button{width:16px;height:16px}
+.sidebar-folder-wrap .move-folder-label select{padding:4px;font-size:9px}
+.avatar-button{border:0}
+.user-mini-main{display:flex;align-items:center;gap:9px;min-width:0;flex:1;border:0;background:transparent;text-align:left;padding:0;border-radius:10px}
+.user-mini-main:hover{background:#f3f5fb}
+.user-mini-main>div:last-child{display:flex;flex-direction:column;min-width:0}
+.settings-layout{display:grid;grid-template-columns:1fr 1.2fr;gap:18px;align-items:start}
+.settings-card{display:grid;gap:16px}
+.settings-card label{display:grid;gap:6px;font-weight:700;font-size:12px;color:#47526a}
+.course-management-section{display:grid;gap:10px;border-top:1px solid var(--line);padding-top:14px}
+.course-management-section:first-of-type{border-top:0;padding-top:0}
+.section-mini-head{display:grid;gap:3px}
+.section-mini-head h4{margin:0;font:800 14px Manrope;color:var(--ink)}
+.section-mini-head p{margin:0;color:var(--muted);font-size:11px;line-height:1.45}
+.settings-course-options{max-height:360px;overflow:auto;padding:4px}
+.custom-chip span{border-style:dashed;background:#fbf8ff}
+.custom-course-panel{display:grid;gap:10px}
+.custom-course-form{display:grid;grid-template-columns:1fr auto;gap:8px}
+.custom-course-list{display:grid;gap:8px}
+.custom-course-row{border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:#fbfcff}
+.custom-course-view{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.custom-course-view>span{font-size:12px;font-weight:800;color:#46516a;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.custom-course-view div,.custom-course-edit{display:flex;gap:6px}
+.custom-course-row button{border:0;background:#eef0ff;color:var(--blue);border-radius:8px;padding:6px 9px;font-size:10px;font-weight:800}
+.custom-course-view button:last-child{background:#fff0ee;color:#c64e45}
+.custom-course-edit input{min-width:0;flex:1;padding:8px 10px;font-size:12px}
+.course-empty-message{grid-column:1/-1;background:#fff;border:1px dashed #cfd5e6;border-radius:14px;padding:18px;color:var(--muted);font-size:12px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.course-empty-message .btn{white-space:nowrap}
+@media(max-width:900px){.settings-layout{grid-template-columns:1fr}.course-empty-message{align-items:flex-start;flex-direction:column}.custom-course-form{grid-template-columns:1fr}.custom-course-row{align-items:flex-start;flex-direction:column}}
